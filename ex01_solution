@@ -1,0 +1,26 @@
+import math
+import numpy as np
+
+# =========================================================================================
+
+print("Question 3.1: Write a function in Python code that adds 2+2 and returns the result.")
+
+result = 2+2
+
+print("Answer: The result of Q3.1 is=",result)
+
+# =========================================================================================
+
+print("\nQuestion 3.2: Write a function in Python code that multiples two 3x3 Matrices (ndarray) and returns the result.")
+
+x = np.array ([ [1,2,3] ,
+                [1,2,3] ,
+                [1,2,3]  ] )
+
+y = np.array( [ [4,5,6],
+                [4,5,6],
+                [4,5,6]  ] )
+              
+result2 = x*y
+              
+print("Answer: The result of Q3.2 is=\n",result2)
