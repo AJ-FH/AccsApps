@@ -51,6 +51,3 @@ Q5 = Q11(1,1,7000000)
 Q6 = Q11(0,1,10000)
 
 Q3.get_all()    
-    
-    
-# spent 4 hours trying to get np.vectorize to work with classes but with no luck
